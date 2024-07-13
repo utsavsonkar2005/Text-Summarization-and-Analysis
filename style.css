@@ -1,0 +1,1066 @@
+
+/* - - - - - - - - - - - - - - - - - - # Universal CSS Styling # - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+body {
+    animation: slide 20s linear infinite;
+    /* Adjust duration and timing function as needed */
+    /* text-align: center; */
+    background-color: #D8DAD3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.tsm-flex{
+    display: flex;
+/* justify-content: center; */
+/* align-items: center; */
+gap: 30px;
+padding: 10px 30px;
+}
+#tsm-button{
+    width: 100%;
+}
+
+#universal-tool-styling{
+    /* background-color: rgb(153, 153, 153); */
+    padding: 20px 10px ;
+    width: 80vw;
+
+}
+
+.box-shadow-pink:hover{
+    /* box-sizing: border-box; */
+    box-shadow: 10px 10px 20px rgb(121, 121, 121);
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+.tools_all_containers{
+    /* cursor: pointer; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - # Webpage Scrollbar Styling # - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+/* Style for the whole scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    /* width of the scrollbar */
+    height: 12px;
+    /* height of the scrollbar */
+}
+
+/* Style for the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #b4b4b4;
+    /* background of the scrollbar track */
+    border-radius: 0px;
+    /* roundness of the scrollbar track */
+}
+
+/* Style for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* color of the scrollbar thumb */
+    border-radius: 0px;
+    /* roundness of the scrollbar thumb */
+}
+
+/* Style for the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #535353;
+    /* color of the scrollbar thumb on hover */
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - # Navbar Styling # - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+nav {
+    color: #f00d0d;
+    display: flex;
+    align-items: center;
+    /* background-color: #f700ff69; */
+    padding: 5px 50px;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    /* background-color: transparent; */
+    /* Change text color */
+    transition: background-color 0.3s;
+    /* Add transition for background color */
+}
+
+
+.logo {
+    width: 100px;
+    /* height: fit-content; */
+    height:50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - # GET STARTED WITH THE TOOLS # - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+#second-div {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.second-div-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.button {
+    flex-basis: calc(33.33% - 40px);
+    height: 200px;
+    /* width: 20px; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    /* text-align: center; */
+    /* transition: transform 0.3s, filter 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s; */
+    /* Added background-color and color transitions */
+    /* Added slight shadow */
+}
+
+.button h3 {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+
+    
+    font-weight: 500;
+    width: auto;
+}
+
+.button p {
+    color: rgb(70, 70, 70);
+    font-weight: 400;
+}
+
+.button:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgb(255, 0, 179);
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+/* 
+.button-container:hover .button:not(:hover) {
+    transform: scale(0.8);
+    Shrink other buttons on container hover
+} */
+
+/* Added styles for selected state */
+.button.selected {
+    background-color: #df4881;
+    /* New background color when selected */
+    color: #000;
+    /* New text color when selected */
+    padding: 22px;
+    /* Adjust padding for selected state */
+}
+
+
+.centered-text {
+    text-align: center;
+    margin-top: 50px;
+
+    /* Adjust margin-top as needed */
+}
+.centered-text #first{
+    height: auto;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.centered-text h2 {
+    font-size: 30px;
+    /* Adjust font size as needed */
+    color: #333;
+    /* Adjust color as needed */
+}
+
+.centered-text textarea {
+    width: 40vw;
+    height: 50vh;
+    /* Adjust height as needed */
+    padding: 10px;
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+
+/* Expand underline on hover */
+.centered-text h2:hover::before {
+    width: 100%;
+}
+
+/* Add animation to h2 on hover */
+.centered-text h2 {
+    font-size: 32px;
+    /* Adjust font size as needed */
+    color: #333;
+    /* Adjust color as needed */
+    position: relative;
+    /* Add position relative for animation */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: color 0.3s;
+    /* Add transition for color */
+}
+
+/* Add underline animation */
+.centered-text h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #c430d7;
+    /* Set color for animation */
+    transition: width 0.3s;
+    /* Add transition for width */
+}
+
+.centered-text .head{
+    padding: 10px 0px;
+}
+
+.info-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - Text Summarization Container - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+
+
+.summarization-form .form-group {
+    margin-bottom: 20px;
+}
+
+.summarization-form label {
+    font-weight: bold;
+}
+
+.summarization-form textarea,
+.summarization-form input[type="number"],
+.summarization-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.summarization-form textarea:focus,
+.summarization-form input[type="number"]:focus,
+.summarization-form select:focus {
+    border-color: #007bff;
+}
+
+.summarization-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.summarization-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.summarization-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.form-group {
+    flex: 0 0 48%;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#responseArea {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Animation for the background */
+@keyframes slide {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #333;
+    /* text-align: center; */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form {
+    animation: slideIn 1s ease-in-out;
+    margin-bottom: 20px;
+    /* Add margin for better spacing */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.form-group label {
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #007bff;
+}
+
+button[type="submit"] {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.chat-container {
+    width: 100%;
+    /* Adjusted width for better responsiveness */
+    margin-top: 20px;
+    /* Moved margin from .container to .chat-container */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.user-message,
+.bot-message {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: fit-content;
+    clear: both;
+}
+
+.user-message {
+    background-color: #f0f0f0;
+    color: #333;
+    float: right;
+}
+
+.bot-message {
+    background-color: #007bff;
+    color: #fff;
+    float: left;
+}
+
+textarea#user-input {
+    width: calc(100% - 10px);
+    /* Adjusted width for better responsiveness */
+    margin-bottom: 10px;
+    /* Added margin for better spacing */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button#send-button {
+    margin-left: 10px;
+    /* Added margin for better spacing */
+    padding: 10px 20px;
+    /* Added padding for better click area */
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#send-button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+.listening-message {
+    margin-left: 10px;
+    /* Added margin for better spacing */
+    font-style: italic;
+    color: #888;
+}
+
+
+/* Animation for the background */
+@keyframes slide {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+/* Header styles */
+h1 {
+    margin-top: 20px;
+    color: #443;
+    /* Set header color */
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+    /* Add transition for border color */
+    color: #000;
+    /* Set text color */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Set transparent background */
+}
+
+textarea:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* Add transition for background color and text color */
+}
+
+button:hover {
+    background-color: #007bff;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+}
+
+/* Score display styles */
+#score {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+    /* Set text color for score */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(C:\Users\LENOVO\Desktop\UI_ideathon\image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 5%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 30px;
+    color: #222;
+}
+
+.content p {
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+
+.content .btn {
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+.btn:hover {
+    border-top-right-radius: 30px;
+}
+
+.feature_img {
+    width: 530px;
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+}
+
+.feature_img.anim {
+    animation-delay: 1.5s;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+.submit-button {
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
+}
+
+
+/* Image styles */
+.generated-image {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Add shadow effect */
+    transition: transform 0.3s;
+    /* Add transition for image transformation */
+}
+
+.generated-image:hover {
+    transform: scale(1.05);
+    /* Scale image on hover */
+}
+
+/* Error correction button styles */
+#error-correction-btn {
+    background-color: #dc3545;
+    /* Set background color */
+    color: #fff;
+    /* Set text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* Add transition for background color and text color */
+    margin-right: 10px;
+    /* Add margin to separate buttons */
+}
+
+#error-correction-btn:hover {
+    background-color: #c82333;
+    /* Change background color on hover */
+}
+
+/* Keyword display styles */
+#keywords {
+    margin-top: 20px;
+    color: #28a745;
+    /* Set text color for keywords */
+}
+
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(C:\Users\LENOVO\Desktop\UI_ideathon\image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 5%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navigation styles */
+
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 20px;
+    /* Add margin between nav links */
+    position: relative;
+    /* Add position relative for animation */
+    transition: color 0.3s;
+    /* Add transition for text color */
+}
+
+.nav-link:hover {
+    color: #c430d7;
+    /* Change text color on hover */
+}
+
+/* Add animation to nav links */
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #c430d7;
+    /* Set color for animation */
+    transition: width 0.3s;
+    /* Add transition for width */
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    /* Expand underline on hover */
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+
+}
+
+.content h1 {
+    font-size: 30px;
+    color: #222;
+}
+
+.content p {
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+
+.content .btn {
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+.btn:hover {
+    border-top-right-radius: 30px;
+}
+
+#imageArea img {
+    display: block;
+    margin: 20px auto;
+    max-width: 30%;
+    height: auto;
+}
+
+.feature_img {
+    width: 530px;
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+}
+
+.feature_img.anim {
+    animation-delay: 1.5s;
+}
+
+.anim {
+    animation-delay: 1.5s;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.button h3:hover {
+    /* text-decoration: dotted; */
+    /* content: ''; */
+    /* position: absolute; */
+    bottom: -5px;
+    margin: 10px;
+    left: 0;
+    width: auto;
+    height: 2px;
+    background-color: #c430d7;
+    transition: width 0.3s;
+}
+
+
+/* Text Summarization Section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.option-btn {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    /* Set border width and color */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    background-color: transparent;
+    /* Set background color to transparent */
+    color: #007bff;
+    /* Set text color */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: all 0.3s ease;
+    /* Add transition for smooth hover effect */
+}
+
+.option-btn:hover {
+    background-color: #007bff;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+}
+
+.chatbot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#user-input,
+#send-button {
+    margin: 10px;
+}
+
+#user-input {
+    width: 80%;
+    /* Adjust width as needed */
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Default button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #45a049;
+    /* Change to desired hover color */
+}
+
+.chatbot-container {
+    text-align: center;
+    margin-top: 20px;
+    /* Adjust as needed */
+}
+
+.chatbot-header {
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+#user-input,
+#send-button {
+    margin: 0 10px;
+    /* Adjust as needed */
+}
+
+#user-input {
+    width: 70%;
+    /* Adjust width as needed */
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Default button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #45a049;
+    /* Change to desired hover color */
+}
+
+.animated-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 16px;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.animated-button:hover {
+    transform: translateY(-2px);
+    background-color: #c430d7;
+}
+
+#error-correction-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 16px;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#error-correction-btn:hover {
+    transform: translateY(-2px);
+    background-color: #c430d7;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor-path {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+    /* Ensure cursor doesn't interact with the path */
+}
+
+.animated-button-small {
+    font-size: 14px;
+    /* Adjust button font size */
+    padding: 8px 16px;
+    /* Adjust button padding */
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 16px;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
