@@ -17,6 +17,7 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 .tsm-flex{
     display: flex;
 /* justify-content: center; */
@@ -24,22 +25,81 @@ body {
 gap: 30px;
 padding: 10px 30px;
 }
+
 #tsm-button{
+    width: 50vw;
+}
+
+
+
+
+
+/* .box-shadow-pink:hover{ */
+    /* box-sizing: border-box; */
+    /* box-shadow: 10px 10px 20px rgb(121, 121, 121); */
+    /* transition: transform 0.3s, filter 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s; */
+/* } */
+
+/* Add underline animation */
+/* *.centered-text h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #c430d7; */
+    /* Set color for animation */
+    /* transition: width 0.3s; */
+    /* Add transition for width */
+/* } */
+
+
+
+.box-shadow-pink {
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.box-shadow-pink:hover {
+    box-shadow: 10px 10px 20px rgb(121, 121, 121);
+}
+
+.centered-text h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #c430d7;
+    transition: width 0.3s;
+}
+
+.box-shadow-pink:hover .centered-text h2::before {
     width: 100%;
 }
+
+.centered-text h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #c430d7;
+    transition: width 0.3s;
+}
+
+
+
 
 #universal-tool-styling{
     /* background-color: rgb(153, 153, 153); */
     padding: 20px 10px ;
     width: 80vw;
-
 }
 
-.box-shadow-pink:hover{
-    /* box-sizing: border-box; */
-    box-shadow: 10px 10px 20px rgb(121, 121, 121);
-    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
-}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - */
@@ -206,7 +266,7 @@ nav ul li {
 
 .centered-text {
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 0px; */
 
     /* Adjust margin-top as needed */
 }
@@ -258,19 +318,6 @@ nav ul li {
     /* Add transition for color */
 }
 
-/* Add underline animation */
-.centered-text h2::before {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: #c430d7;
-    /* Set color for animation */
-    transition: width 0.3s;
-    /* Add transition for width */
-}
 
 .centered-text .head{
     padding: 10px 0px;
